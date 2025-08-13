@@ -427,6 +427,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "markitdown", extra = ["docx", "pdf"] },
     { name = "openai" },
+    { name = "pydantic" },
     { name = "pymilvus" },
     { name = "python-dotenv" },
     { name = "streamlit" },
@@ -436,6 +437,7 @@ dependencies = [
 requires-dist = [
     { name = "markitdown", extras = ["docx", "pdf"], specifier = ">=0.1.2" },
     { name = "openai", specifier = ">=1.99.6" },
+    { name = "pydantic", specifier = ">=2.11.7" },
     { name = "pymilvus", specifier = ">=2.6.0" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "streamlit", specifier = ">=1.48.0" },
